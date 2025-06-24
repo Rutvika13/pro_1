@@ -1,0 +1,206 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>8/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Jun 24 11:30:39 IST 2025</td>
+</tr>
+<tr><td>Total time:</td><td>173 seconds (173268 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='Amazon_pacakge.Amazon_project.Test_15_addtocartwithoutlogin.addtocartnologin()'><b>addtocartnologin</b><br>Test class: Amazon_pacakge.Amazon_project.Test_15_addtocartwithoutlogin</td>
+<td></td>
+<td>9</td>
+<td>Amazon_pacakge.Amazon_project.Test_15_addtocartwithoutlogin@6f27a732</td></tr>
+<tr>
+<td title='Amazon_pacakge.Amazon_project.Test_4_Execution_Editprofile.editprofile()'><b>editprofile</b><br>Test class: Amazon_pacakge.Amazon_project.Test_4_Execution_Editprofile<br>Parameters: 7066328484, kalyani@90<br/>
+<a href="#Output-239648666" onClick='toggleBox("Output-239648666", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-239648666" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-239648666">
+successful done step 3<br/>
+Enter the username<br/>
+Cliking continue<br/>
+Enter the username<br/>
+Successful login in<br/>
+click on editing<br/>
+Successfully editing<br/>
+save changes<br/>
+</div>
+</td>
+<td></td>
+<td>13</td>
+<td>Amazon_pacakge.Amazon_project.Test_4_Execution_Editprofile@6236eb5f</td></tr>
+<tr>
+<td title='Amazon_pacakge.Amazon_project.Tase_9_Execution_Addtocart.addtocart()'><b>addtocart</b><br>Test class: Amazon_pacakge.Amazon_project.Tase_9_Execution_Addtocart<br>Parameters: 7066328484, kalyani@90<br/>
+<a href="#Output-424489630" onClick='toggleBox("Output-424489630", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-424489630" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-424489630">
+successful done step 3<br/>
+Successful signin1<br/>
+Enter the username<br/>
+Cliking continue<br/>
+Enter the username<br/>
+Successful login in<br/>
+</div>
+</td>
+<td></td>
+<td>16</td>
+<td>Amazon_pacakge.Amazon_project.Tase_9_Execution_Addtocart@76f2bbc1</td></tr>
+<tr>
+<td title='Amazon_pacakge.Amazon_project.Test_1_Execution.loginsuccesful()'><b>loginsuccesful</b><br>Test class: Amazon_pacakge.Amazon_project.Test_1_Execution<br/>
+<a href="#Output-932118570" onClick='toggleBox("Output-932118570", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-932118570" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-932118570">
+successful done step 3<br/>
+signin new user<br/>
+Enter the username<br/>
+Cliking continue<br/>
+Entering password<br/>
+Successful login in<br/>
+</div>
+</td>
+<td></td>
+<td>8</td>
+<td>Amazon_pacakge.Amazon_project.Test_1_Execution@8317c52</td></tr>
+<tr>
+<td title='Amazon_pacakge.Amazon_project.Test_2_Execution.sucsessfulloginwithrightdetails()'><b>sucsessfulloginwithrightdetails</b><br>Test class: Amazon_pacakge.Amazon_project.Test_2_Execution<br>Parameters: 7066328484, kalyani@90<br/>
+<a href="#Output-294827406" onClick='toggleBox("Output-294827406", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-294827406" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-294827406">
+successful done step 3<br/>
+Successful signin1<br/>
+Enter the username<br/>
+Cliking continue<br/>
+Enter the username<br/>
+Successful login in<br/>
+</div>
+</td>
+<td></td>
+<td>6</td>
+<td>Amazon_pacakge.Amazon_project.Test_2_Execution@68e965f5</td></tr>
+<tr>
+<td title='Amazon_pacakge.Amazon_project.Test_11_Execution_addpayment.addpayment()'><b>addpayment</b><br>Test class: Amazon_pacakge.Amazon_project.Test_11_Execution_addpayment<br>Parameters: 7066328484, kalyani@90<br/>
+<a href="#Output-1372150180" onClick='toggleBox("Output-1372150180", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1372150180" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1372150180">
+successful done step 3<br/>
+Successful signin1<br/>
+Enter the username<br/>
+Cliking continue<br/>
+Enter the username<br/>
+Successful login in<br/>
+</div>
+</td>
+<td></td>
+<td>20</td>
+<td>Amazon_pacakge.Amazon_project.Test_11_Execution_addpayment@78ffe6dc</td></tr>
+<tr>
+<td title='Amazon_pacakge.Amazon_project.Test_5_Execution_searchingproduct.addtocart()'><b>addtocart</b><br>Test class: Amazon_pacakge.Amazon_project.Test_5_Execution_searchingproduct<br/>
+<a href="#Output-602928593" onClick='toggleBox("Output-602928593", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-602928593" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-602928593">
+successful done step 3<br/>
+Successful signin1<br/>
+Enter the username<br/>
+Cliking continue<br/>
+Entering password<br/>
+Successful login in<br/>
+</div>
+</td>
+<td></td>
+<td>12</td>
+<td>Amazon_pacakge.Amazon_project.Test_5_Execution_searchingproduct@5f683daf</td></tr>
+<tr>
+<td title='Amazon_pacakge.Amazon_project.Test_10_Exectuion.addtocart()'><b>addtocart</b><br>Test class: Amazon_pacakge.Amazon_project.Test_10_Exectuion<br>Parameters: 7066328484, kalyani@90<br/>
+<a href="#Output-669132924" onClick='toggleBox("Output-669132924", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-669132924" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-669132924">
+successful done step 3<br/>
+Successful signin1<br/>
+Enter the username<br/>
+Cliking continue<br/>
+Enter the username<br/>
+Successful login in<br/>
+</div>
+</td>
+<td></td>
+<td>18</td>
+<td>Amazon_pacakge.Amazon_project.Test_10_Exectuion@6c779568</td></tr>
+</table><p>
+</body>
+</html>

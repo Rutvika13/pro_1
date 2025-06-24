@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Successfully done to account]]>
+    </line>
+    <line>
+      <![CDATA[successful done step 3]]>
+    </line>
+    <line>
+      <![CDATA[Enter the username]]>
+    </line>
+    <line>
+      <![CDATA[Cliking continue]]>
+    </line>
+    <line>
+      <![CDATA[Enter the username]]>
+    </line>
+    <line>
+      <![CDATA[Successful login in]]>
+    </line>
+    <line>
+      <![CDATA[click on editing]]>
+    </line>
+    <line>
+      <![CDATA[Successfully editing]]>
+    </line>
+    <line>
+      <![CDATA[save changes]]>
+    </line>
+    <line>
+      <![CDATA[Successfully close]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2025-06-24T12:02:29 IST" name="Default suite" finished-at="2025-06-24T12:02:54 IST" duration-ms="24163">
+    <groups>
+    </groups>
+    <test started-at="2025-06-24T12:02:29 IST" name="Default test" finished-at="2025-06-24T12:02:54 IST" duration-ms="24163">
+      <class name="Amazon_pacakge.Amazon_project.Test_4_Execution_Editprofile">
+        <test-method is-config="true" signature="login_in()[pri:0, instance:Amazon_pacakge.Amazon_project.Test_4_Execution_Editprofile@623a8092]" started-at="2025-06-24T12:02:31 IST" name="login_in" finished-at="2025-06-24T12:02:41 IST" duration-ms="9887" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Successfully done to account]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login_in -->
+        <test-method signature="editprofile(java.lang.String,java.lang.String)[pri:0, instance:Amazon_pacakge.Amazon_project.Test_4_Execution_Editprofile@623a8092]" started-at="2025-06-24T12:02:41 IST" name="editprofile" data-provider="data" finished-at="2025-06-24T12:02:53 IST" duration-ms="12604" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7066328484]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[kalyani@90]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[successful done step 3]]>
+            </line>
+            <line>
+              <![CDATA[Enter the username]]>
+            </line>
+            <line>
+              <![CDATA[Cliking continue]]>
+            </line>
+            <line>
+              <![CDATA[Enter the username]]>
+            </line>
+            <line>
+              <![CDATA[Successful login in]]>
+            </line>
+            <line>
+              <![CDATA[click on editing]]>
+            </line>
+            <line>
+              <![CDATA[Successfully editing]]>
+            </line>
+            <line>
+              <![CDATA[save changes]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- editprofile -->
+        <test-method is-config="true" signature="log_out()[pri:0, instance:Amazon_pacakge.Amazon_project.Test_4_Execution_Editprofile@623a8092]" started-at="2025-06-24T12:02:53 IST" name="log_out" finished-at="2025-06-24T12:02:54 IST" duration-ms="260" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Successfully close]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- log_out -->
+      </class> <!-- Amazon_pacakge.Amazon_project.Test_4_Execution_Editprofile -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

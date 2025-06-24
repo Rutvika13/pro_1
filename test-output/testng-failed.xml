@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="Amazon_pacakge.Amazon_project.Test_1_Execution">
+        <methods>
+          <include name="log_out"/>
+          <include name="loginsuccesful"/>
+          <include name="login_in"/>
+        </methods>
+      </class> <!-- Amazon_pacakge.Amazon_project.Test_1_Execution -->
+      <class name="Amazon_pacakge.Amazon_project.Test_11_Execution_addpayment">
+        <methods>
+          <include name="log_out"/>
+          <include name="login_in"/>
+          <include name="addpayment"/>
+        </methods>
+      </class> <!-- Amazon_pacakge.Amazon_project.Test_11_Execution_addpayment -->
+      <class name="Amazon_pacakge.Amazon_project.Test_2_Execution">
+        <methods>
+          <include name="log_out"/>
+          <include name="sucsessfulloginwithrightdetails"/>
+          <include name="login_in"/>
+        </methods>
+      </class> <!-- Amazon_pacakge.Amazon_project.Test_2_Execution -->
+      <class name="Amazon_pacakge.Amazon_project.Test_15_addtocartwithoutlogin">
+        <methods>
+          <include name="log_out"/>
+          <include name="addtocartnologin"/>
+          <include name="login_in"/>
+        </methods>
+      </class> <!-- Amazon_pacakge.Amazon_project.Test_15_addtocartwithoutlogin -->
+      <class name="Amazon_pacakge.Amazon_project.Tase_9_Execution_Addtocart">
+        <methods>
+          <include name="log_out"/>
+          <include name="addtocart"/>
+          <include name="login_in"/>
+        </methods>
+      </class> <!-- Amazon_pacakge.Amazon_project.Tase_9_Execution_Addtocart -->
+      <class name="Amazon_pacakge.Amazon_project.Test_4_Execution_Editprofile">
+        <methods>
+          <include name="log_out"/>
+          <include name="editprofile"/>
+          <include name="login_in"/>
+        </methods>
+      </class> <!-- Amazon_pacakge.Amazon_project.Test_4_Execution_Editprofile -->
+      <class name="Amazon_pacakge.Amazon_project.Test_10_Exectuion">
+        <methods>
+          <include name="log_out"/>
+          <include name="addtocart"/>
+          <include name="login_in"/>
+        </methods>
+      </class> <!-- Amazon_pacakge.Amazon_project.Test_10_Exectuion -->
+      <class name="Amazon_pacakge.Amazon_project.Test_5_Execution_searchingproduct">
+        <methods>
+          <include name="log_out"/>
+          <include name="addtocart"/>
+          <include name="login_in"/>
+        </methods>
+      </class> <!-- Amazon_pacakge.Amazon_project.Test_5_Execution_searchingproduct -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
