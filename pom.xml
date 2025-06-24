@@ -5,7 +5,7 @@
   <artifactId>SeleniumProject2</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   
-    <build>
+  <build>
 		<pluginManagement>
 			<plugins>
 				<plugin>
@@ -16,13 +16,11 @@
 						<source>15</source>
 						<target>15</target>
 					</configuration>
-
 				</plugin>
-
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
 					<artifactId>maven-surefire-plugin</artifactId>
-					<version>3.0.0-M7</version>
+					<version>3.3.1</version>
 					<configuration>
 						<suiteXmlFiles>
 							<suiteXmlFile>testng.xml</suiteXmlFile>
@@ -39,10 +37,9 @@
 		<!--
 		https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
 		<dependency>
-		
 			<groupId>org.seleniumhq.selenium</groupId>
 			<artifactId>selenium-java</artifactId>
-			<version>4.20.0</version>
+			<version>4.32.0</version>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/org.testng/testng -->
 		<dependency>
@@ -51,17 +48,16 @@
 			<version>7.10.2</version>
 			<scope>test</scope>
 		</dependency>
-<dependency>
-  <groupId>org.apache.logging.log4j</groupId>
-  <artifactId>log4j-core</artifactId>
-  <version>2.20.0</version> <!-- or the latest version -->
-</dependency>
-<dependency>
-  <groupId>org.apache.logging.log4j</groupId>
-  <artifactId>log4j-api</artifactId>
-  <version>2.20.0</version>
-</dependency>
+		<dependency>
+           <groupId>org.apache.poi</groupId>
+           <artifactId>poi</artifactId>
+           <version>5.2.0</version>  <!-- Or the latest version -->
+       </dependency>
+       <dependency>
+           <groupId>org.apache.poi</groupId>
+           <artifactId>poi-ooxml</artifactId>
+           <version>5.2.0</version>  <!-- Or the latest version -->
+       </dependency>
+
 	</dependencies>
-  
-  
 </project>
